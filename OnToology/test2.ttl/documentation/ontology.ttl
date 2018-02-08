@@ -1,0 +1,129 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://purl.org/dc/dcmitype/Event
+<http://purl.org/dc/dcmitype/Event> rdf:type owl:Class ;
+                                    owl:equivalentClass <http://schema.org/Event> .
+
+
+###  http://schema.org/BroadcastEvent
+<http://schema.org/BroadcastEvent> rdf:type owl:Class ;
+                                   rdfs:subClassOf <http://schema.org/PublicationEvent> ;
+                                   rdfs:comment "An over the air or online broadcast event."^^xsd:string ;
+                                   rdfs:label "BroadcastEvent"^^xsd:string .
+
+
+###  http://schema.org/BusinessEvent
+<http://schema.org/BusinessEvent> rdf:type owl:Class ;
+                                  rdfs:subClassOf <http://schema.org/Event> ;
+                                  rdfs:comment "Event type: Business event."^^xsd:string ;
+                                  rdfs:label "BusinessEvent"^^xsd:string .
+
+
+###  http://schema.org/ChildrensEvent
+<http://schema.org/ChildrensEvent> rdf:type owl:Class ;
+                                   rdfs:subClassOf <http://schema.org/Event> ;
+                                   rdfs:comment "Event type: Children's event."^^xsd:string ;
+                                   rdfs:label "ChildrensEvent"^^xsd:string .
+
+
+###  http://schema.org/ComedyEvent
+<http://schema.org/ComedyEvent> rdf:type owl:Class ;
+                                rdfs:subClassOf <http://schema.org/Event> ;
+                                rdfs:comment "Event type: Comedy event."^^xsd:string ;
+                                rdfs:label "ComedyEvent"^^xsd:string .
+
+
+###  http://schema.org/CourseInstance
+<http://schema.org/CourseInstance> rdf:type owl:Class ;
+                                   rdfs:subClassOf <http://schema.org/Event> ;
+                                   rdfs:comment "An instance of a <a class=\"localLink\" href=\"http://schema.org/Course\">Course</a> which is distinct from other instances because it is offered at a different time or location or through different media or modes of study or to a specific section of students."^^xsd:string ;
+                                   rdfs:label "CourseInstance"^^xsd:string .
+
+
+###  http://schema.org/DanceEvent
+<http://schema.org/DanceEvent> rdf:type owl:Class ;
+                               rdfs:subClassOf <http://schema.org/Event> ;
+                               rdfs:comment "Event type: A social dance."^^xsd:string ;
+                               rdfs:label "DanceEvent"^^xsd:string .
+
+
+###  http://schema.org/DeliveryEvent
+<http://schema.org/DeliveryEvent> rdf:type owl:Class ;
+                                  rdfs:subClassOf <http://schema.org/Event> ;
+                                  rdfs:comment "An event involving the delivery of an item."^^xsd:string ;
+                                  rdfs:label "DeliveryEvent"^^xsd:string .
+
+
+###  http://schema.org/EducationEvent
+<http://schema.org/EducationEvent> rdf:type owl:Class ;
+                                   rdfs:subClassOf <http://schema.org/Event> ;
+                                   rdfs:comment "Event type: Education event."^^xsd:string ;
+                                   rdfs:label "EducationEvent"^^xsd:string .
+
+
+###  http://schema.org/Enumeration
+<http://schema.org/Enumeration> rdf:type owl:Class .
+
+
+###  http://schema.org/Event
+<http://schema.org/Event> rdf:type owl:Class ;
+                          rdfs:subClassOf <http://schema.org/Thing> ;
+                          rdfs:comment "An event happening at a certain time and location, such as a concert, lecture, or festival. Ticketing information may be added via the <a class=\"localLink\" href=\"http://schema.org/offers\">offers</a> property. Repeated events may be structured as separate Event objects."^^xsd:string ;
+                          rdfs:label "Event"^^xsd:string .
+
+
+###  http://schema.org/EventReservation
+<http://schema.org/EventReservation> rdf:type owl:Class ;
+                                     rdfs:subClassOf <http://schema.org/Reservation> ;
+                                     rdfs:comment """A reservation for an event like a concert, sporting event, or lecture.</p>
+
+<p>Note: This type is for information about actual reservations, e.g. in confirmation emails or HTML pages with individual confirmations of reservations. For offers of tickets, use <a class=\"localLink\" href=\"http://schema.org/Offer\">Offer</a>."""^^xsd:string ;
+                                     rdfs:label "EventReservation"^^xsd:string .
+
+
+###  http://schema.org/EventStatusType
+<http://schema.org/EventStatusType> rdf:type owl:Class ;
+                                    rdfs:subClassOf <http://schema.org/Enumeration> ;
+                                    rdfs:comment "EventStatusType is an enumeration type whose instances represent several states that an Event may be in."^^xsd:string ;
+                                    rdfs:label "EventStatusType"^^xsd:string .
+
+
+###  http://schema.org/ExhibitionEvent
+<http://schema.org/ExhibitionEvent> rdf:type owl:Class ;
+                                    rdfs:subClassOf <http://schema.org/Event> ;
+                                    rdfs:comment "Event type: Exhibition event, e.g. at a museum, library, archive, tradeshow, ..."^^xsd:string ;
+                                    rdfs:label "ExhibitionEvent"^^xsd:string .
+
+
+###  http://schema.org/Festival
+<http://schema.org/Festival> rdf:type owl:Class ;
+                             rdfs:subClassOf <http://schema.org/Event> ;
+                             rdfs:comment "Event type: Festival."^^xsd:string ;
+                             rdfs:label "Festival"^^xsd:string .
+
+
+###  http://schema.org/PublicationEvent
+<http://schema.org/PublicationEvent> rdf:type owl:Class .
+
+
+###  http://schema.org/Reservation
+<http://schema.org/Reservation> rdf:type owl:Class .
+
+
+###  http://schema.org/Thing
+<http://schema.org/Thing> rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/

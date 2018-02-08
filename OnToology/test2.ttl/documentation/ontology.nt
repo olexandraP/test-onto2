@@ -1,0 +1,105 @@
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/dcmitype/Event
+<http://purl.org/dc/dcmitype/Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/dcmitype/Event> <http://www.w3.org/2002/07/owl#equivalentClass> <http://schema.org/Event> .
+# 
+# http://schema.org/BroadcastEvent
+<http://schema.org/BroadcastEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/BroadcastEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/PublicationEvent> .
+<http://schema.org/PublicationEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/BroadcastEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "An over the air or online broadcast event." .
+<http://schema.org/BroadcastEvent> <http://www.w3.org/2000/01/rdf-schema#label> "BroadcastEvent" .
+# 
+# http://schema.org/BusinessEvent
+<http://schema.org/BusinessEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/BusinessEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Event> .
+<http://schema.org/BusinessEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Event type: Business event." .
+<http://schema.org/BusinessEvent> <http://www.w3.org/2000/01/rdf-schema#label> "BusinessEvent" .
+# 
+# http://schema.org/ChildrensEvent
+<http://schema.org/ChildrensEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/ChildrensEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Event> .
+<http://schema.org/ChildrensEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Event type: Children's event." .
+<http://schema.org/ChildrensEvent> <http://www.w3.org/2000/01/rdf-schema#label> "ChildrensEvent" .
+# 
+# http://schema.org/ComedyEvent
+<http://schema.org/ComedyEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/ComedyEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Event> .
+<http://schema.org/ComedyEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Event type: Comedy event." .
+<http://schema.org/ComedyEvent> <http://www.w3.org/2000/01/rdf-schema#label> "ComedyEvent" .
+# 
+# http://schema.org/CourseInstance
+<http://schema.org/CourseInstance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/CourseInstance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Event> .
+<http://schema.org/CourseInstance> <http://www.w3.org/2000/01/rdf-schema#comment> "An instance of a <a class=\"localLink\" href=\"http://schema.org/Course\">Course</a> which is distinct from other instances because it is offered at a different time or location or through different media or modes of study or to a specific section of students." .
+<http://schema.org/CourseInstance> <http://www.w3.org/2000/01/rdf-schema#label> "CourseInstance" .
+# 
+# http://schema.org/DanceEvent
+<http://schema.org/DanceEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/DanceEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Event> .
+<http://schema.org/DanceEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Event type: A social dance." .
+<http://schema.org/DanceEvent> <http://www.w3.org/2000/01/rdf-schema#label> "DanceEvent" .
+# 
+# http://schema.org/DeliveryEvent
+<http://schema.org/DeliveryEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/DeliveryEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Event> .
+<http://schema.org/DeliveryEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "An event involving the delivery of an item." .
+<http://schema.org/DeliveryEvent> <http://www.w3.org/2000/01/rdf-schema#label> "DeliveryEvent" .
+# 
+# http://schema.org/EducationEvent
+<http://schema.org/EducationEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/EducationEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Event> .
+<http://schema.org/EducationEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Event type: Education event." .
+<http://schema.org/EducationEvent> <http://www.w3.org/2000/01/rdf-schema#label> "EducationEvent" .
+# 
+# http://schema.org/Enumeration
+<http://schema.org/Enumeration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://schema.org/Event
+<http://schema.org/Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/Event> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Thing> .
+<http://schema.org/Thing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/Event> <http://www.w3.org/2000/01/rdf-schema#comment> "An event happening at a certain time and location, such as a concert, lecture, or festival. Ticketing information may be added via the <a class=\"localLink\" href=\"http://schema.org/offers\">offers</a> property. Repeated events may be structured as separate Event objects." .
+<http://schema.org/Event> <http://www.w3.org/2000/01/rdf-schema#label> "Event" .
+# 
+# http://schema.org/EventReservation
+<http://schema.org/EventReservation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/EventReservation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Reservation> .
+<http://schema.org/Reservation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/EventReservation> <http://www.w3.org/2000/01/rdf-schema#comment> "A reservation for an event like a concert, sporting event, or lecture.</p>\r\n\r\n<p>Note: This type is for information about actual reservations, e.g. in confirmation emails or HTML pages with individual confirmations of reservations. For offers of tickets, use <a class=\"localLink\" href=\"http://schema.org/Offer\">Offer</a>." .
+<http://schema.org/EventReservation> <http://www.w3.org/2000/01/rdf-schema#label> "EventReservation" .
+# 
+# http://schema.org/EventStatusType
+<http://schema.org/EventStatusType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/EventStatusType> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Enumeration> .
+<http://schema.org/EventStatusType> <http://www.w3.org/2000/01/rdf-schema#comment> "EventStatusType is an enumeration type whose instances represent several states that an Event may be in." .
+<http://schema.org/EventStatusType> <http://www.w3.org/2000/01/rdf-schema#label> "EventStatusType" .
+# 
+# http://schema.org/ExhibitionEvent
+<http://schema.org/ExhibitionEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/ExhibitionEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Event> .
+<http://schema.org/ExhibitionEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Event type: Exhibition event, e.g. at a museum, library, archive, tradeshow, ..." .
+<http://schema.org/ExhibitionEvent> <http://www.w3.org/2000/01/rdf-schema#label> "ExhibitionEvent" .
+# 
+# http://schema.org/Festival
+<http://schema.org/Festival> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://schema.org/Festival> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Event> .
+<http://schema.org/Festival> <http://www.w3.org/2000/01/rdf-schema#comment> "Event type: Festival." .
+<http://schema.org/Festival> <http://www.w3.org/2000/01/rdf-schema#label> "Festival" .
+# 
+# http://schema.org/PublicationEvent
+# 
+# http://schema.org/Reservation
+# 
+# http://schema.org/Thing
+# 
+# Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/

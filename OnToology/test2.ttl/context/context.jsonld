@@ -1,0 +1,61 @@
+{
+  "@context" : {
+    "CourseInstance" : {
+      "@id" : "http://schema.org/CourseInstance"
+    },
+    "Thing" : {
+      "@id" : "http://schema.org/Thing"
+    },
+    "DeliveryEvent" : {
+      "@id" : "http://schema.org/DeliveryEvent"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "Reservation" : {
+      "@id" : "http://schema.org/Reservation"
+    },
+    "Event" : {
+      "@id" : "http://purl.org/dc/dcmitype/Event"
+    },
+    "ComedyEvent" : {
+      "@id" : "http://schema.org/ComedyEvent"
+    },
+    "ChildrensEvent" : {
+      "@id" : "http://schema.org/ChildrensEvent"
+    },
+    "BroadcastEvent" : {
+      "@id" : "http://schema.org/BroadcastEvent"
+    },
+    "BusinessEvent" : {
+      "@id" : "http://schema.org/BusinessEvent"
+    },
+    "PublicationEvent" : {
+      "@id" : "http://schema.org/PublicationEvent"
+    },
+    "EducationEvent" : {
+      "@id" : "http://schema.org/EducationEvent"
+    },
+    "DanceEvent" : {
+      "@id" : "http://schema.org/DanceEvent"
+    },
+    "EventStatusType" : {
+      "@id" : "http://schema.org/EventStatusType"
+    },
+    "Festival" : {
+      "@id" : "http://schema.org/Festival"
+    },
+    "ExhibitionEvent" : {
+      "@id" : "http://schema.org/ExhibitionEvent"
+    },
+    "Enumeration" : {
+      "@id" : "http://schema.org/Enumeration"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "EventReservation" : {
+      "@id" : "http://schema.org/EventReservation"
+    }
+  }
+}
