@@ -1,0 +1,2239 @@
+{
+  "@context" : {
+    "QualitativeValue" : {
+      "@id" : "http://schema.org/QualitativeValue"
+    },
+    "Dentist" : {
+      "@id" : "http://schema.org/Dentist"
+    },
+    "SportingGoodsStore" : {
+      "@id" : "http://schema.org/SportingGoodsStore"
+    },
+    "URL" : {
+      "@id" : "http://schema.org/URL"
+    },
+    "BikeStore" : {
+      "@id" : "http://schema.org/BikeStore"
+    },
+    "JobPosting" : {
+      "@id" : "http://schema.org/JobPosting"
+    },
+    "CheckAction" : {
+      "@id" : "http://schema.org/CheckAction"
+    },
+    "CatholicChurch" : {
+      "@id" : "http://schema.org/CatholicChurch"
+    },
+    "BusinessAudience" : {
+      "@id" : "http://schema.org/BusinessAudience"
+    },
+    "ItemPage" : {
+      "@id" : "http://schema.org/ItemPage"
+    },
+    "UserBlocks" : {
+      "@id" : "http://schema.org/UserBlocks"
+    },
+    "BusinessFunction" : {
+      "@id" : "http://schema.org/BusinessFunction"
+    },
+    "PrependAction" : {
+      "@id" : "http://schema.org/PrependAction"
+    },
+    "UnRegisterAction" : {
+      "@id" : "http://schema.org/UnRegisterAction"
+    },
+    "CableOrSatelliteService" : {
+      "@id" : "http://schema.org/CableOrSatelliteService"
+    },
+    "replacee" : {
+      "@id" : "http://schema.org/replacee"
+    },
+    "recipeInstructions" : {
+      "@id" : "http://schema.org/recipeInstructions"
+    },
+    "DigitalDocumentPermission" : {
+      "@id" : "http://schema.org/DigitalDocumentPermission"
+    },
+    "object" : {
+      "@id" : "http://schema.org/object"
+    },
+    "TrainReservation" : {
+      "@id" : "http://schema.org/TrainReservation"
+    },
+    "Permit" : {
+      "@id" : "http://schema.org/Permit"
+    },
+    "FastFoodRestaurant" : {
+      "@id" : "http://schema.org/FastFoodRestaurant"
+    },
+    "exerciseCourse" : {
+      "@id" : "http://schema.org/exerciseCourse"
+    },
+    "RealEstateAgent" : {
+      "@id" : "http://schema.org/RealEstateAgent"
+    },
+    "TaxiService" : {
+      "@id" : "http://schema.org/TaxiService"
+    },
+    "recipe" : {
+      "@id" : "http://schema.org/recipe"
+    },
+    "affiliation" : {
+      "@id" : "http://schema.org/affiliation"
+    },
+    "Order" : {
+      "@id" : "http://schema.org/Order"
+    },
+    "VisualArtsEvent" : {
+      "@id" : "http://schema.org/VisualArtsEvent"
+    },
+    "AskAction" : {
+      "@id" : "http://schema.org/AskAction"
+    },
+    "VideoGame" : {
+      "@id" : "http://schema.org/VideoGame"
+    },
+    "BookSeries" : {
+      "@id" : "http://schema.org/BookSeries"
+    },
+    "EmergencyService" : {
+      "@id" : "http://schema.org/EmergencyService"
+    },
+    "PerformingArtsTheater" : {
+      "@id" : "http://schema.org/PerformingArtsTheater"
+    },
+    "TheaterEvent" : {
+      "@id" : "http://schema.org/TheaterEvent"
+    },
+    "FoodService" : {
+      "@id" : "http://schema.org/FoodService"
+    },
+    "PhotographAction" : {
+      "@id" : "http://schema.org/PhotographAction"
+    },
+    "MoveAction" : {
+      "@id" : "http://schema.org/MoveAction"
+    },
+    "CourseInstance" : {
+      "@id" : "http://schema.org/CourseInstance"
+    },
+    "DataType" : {
+      "@id" : "http://schema.org/DataType"
+    },
+    "PaymentService" : {
+      "@id" : "http://schema.org/PaymentService"
+    },
+    "DeliveryChargeSpecification" : {
+      "@id" : "http://schema.org/DeliveryChargeSpecification"
+    },
+    "ElementarySchool" : {
+      "@id" : "http://schema.org/ElementarySchool"
+    },
+    "ElectronicsStore" : {
+      "@id" : "http://schema.org/ElectronicsStore"
+    },
+    "Painting" : {
+      "@id" : "http://schema.org/Painting"
+    },
+    "Review" : {
+      "@id" : "http://schema.org/Review"
+    },
+    "Winery" : {
+      "@id" : "http://schema.org/Winery"
+    },
+    "ReturnAction" : {
+      "@id" : "http://schema.org/ReturnAction"
+    },
+    "SearchResultsPage" : {
+      "@id" : "http://schema.org/SearchResultsPage"
+    },
+    "Dataset" : {
+      "@id" : "http://rdfs.org/ns/void#Dataset"
+    },
+    "resultComment" : {
+      "@id" : "http://schema.org/resultComment"
+    },
+    "toRecipient" : {
+      "@id" : "http://schema.org/toRecipient"
+    },
+    "leiCode" : {
+      "@id" : "http://schema.org/leiCode"
+    },
+    "HotelRoom" : {
+      "@id" : "http://schema.org/HotelRoom"
+    },
+    "InteractAction" : {
+      "@id" : "http://schema.org/InteractAction"
+    },
+    "AchieveAction" : {
+      "@id" : "http://schema.org/AchieveAction"
+    },
+    "HighSchool" : {
+      "@id" : "http://schema.org/HighSchool"
+    },
+    "workLocation" : {
+      "@id" : "http://schema.org/workLocation"
+    },
+    "SocialEvent" : {
+      "@id" : "http://schema.org/SocialEvent"
+    },
+    "RadioChannel" : {
+      "@id" : "http://schema.org/RadioChannel"
+    },
+    "SellAction" : {
+      "@id" : "http://schema.org/SellAction"
+    },
+    "sku" : {
+      "@id" : "http://schema.org/sku"
+    },
+    "availableAtOrFrom" : {
+      "@id" : "http://schema.org/availableAtOrFrom"
+    },
+    "Zoo" : {
+      "@id" : "http://schema.org/Zoo"
+    },
+    "vendor" : {
+      "@id" : "http://schema.org/vendor"
+    },
+    "TVClip" : {
+      "@id" : "http://schema.org/TVClip"
+    },
+    "HowToSection" : {
+      "@id" : "http://schema.org/HowToSection"
+    },
+    "TrainStation" : {
+      "@id" : "http://schema.org/TrainStation"
+    },
+    "DataFeedItem" : {
+      "@id" : "http://schema.org/DataFeedItem"
+    },
+    "Store" : {
+      "@id" : "http://schema.org/Store"
+    },
+    "CompoundPriceSpecification" : {
+      "@id" : "http://schema.org/CompoundPriceSpecification"
+    },
+    "TransferAction" : {
+      "@id" : "http://schema.org/TransferAction"
+    },
+    "DepositAccount" : {
+      "@id" : "http://schema.org/DepositAccount"
+    },
+    "BarOrPub" : {
+      "@id" : "http://schema.org/BarOrPub"
+    },
+    "Country" : {
+      "@id" : "http://schema.org/Country"
+    },
+    "UserPageVisits" : {
+      "@id" : "http://schema.org/UserPageVisits"
+    },
+    "SocialMediaPosting" : {
+      "@id" : "http://schema.org/SocialMediaPosting"
+    },
+    "TaxiReservation" : {
+      "@id" : "http://schema.org/TaxiReservation"
+    },
+    "AggregateOffer" : {
+      "@id" : "http://schema.org/AggregateOffer"
+    },
+    "CollectionPage" : {
+      "@id" : "http://schema.org/CollectionPage"
+    },
+    "contentLocation" : {
+      "@id" : "http://schema.org/contentLocation"
+    },
+    "WriteAction" : {
+      "@id" : "http://schema.org/WriteAction"
+    },
+    "Comment" : {
+      "@id" : "http://schema.org/Comment"
+    },
+    "buyer" : {
+      "@id" : "http://schema.org/buyer"
+    },
+    "actionOption" : {
+      "@id" : "http://schema.org/actionOption"
+    },
+    "steps" : {
+      "@id" : "http://schema.org/steps"
+    },
+    "InsuranceAgency" : {
+      "@id" : "http://schema.org/InsuranceAgency"
+    },
+    "BuyAction" : {
+      "@id" : "http://schema.org/BuyAction"
+    },
+    "LodgingBusiness" : {
+      "@id" : "http://schema.org/LodgingBusiness"
+    },
+    "InformAction" : {
+      "@id" : "http://schema.org/InformAction"
+    },
+    "accountId" : {
+      "@id" : "http://schema.org/accountId"
+    },
+    "DayOfWeek" : {
+      "@id" : "http://schema.org/DayOfWeek"
+    },
+    "Courthouse" : {
+      "@id" : "http://schema.org/Courthouse"
+    },
+    "GamePlayMode" : {
+      "@id" : "http://schema.org/GamePlayMode"
+    },
+    "recipeYield" : {
+      "@id" : "http://schema.org/recipeYield"
+    },
+    "season" : {
+      "@id" : "http://schema.org/season"
+    },
+    "yield" : {
+      "@id" : "http://schema.org/yield"
+    },
+    "TextDigitalDocument" : {
+      "@id" : "http://schema.org/TextDigitalDocument"
+    },
+    "ArriveAction" : {
+      "@id" : "http://schema.org/ArriveAction"
+    },
+    "globalLocationNumber" : {
+      "@id" : "http://schema.org/globalLocationNumber"
+    },
+    "Organization" : {
+      "@id" : "http://schema.org/Organization"
+    },
+    "Embassy" : {
+      "@id" : "http://schema.org/Embassy"
+    },
+    "RadioSeries" : {
+      "@id" : "http://schema.org/RadioSeries"
+    },
+    "StadiumOrArena" : {
+      "@id" : "http://schema.org/StadiumOrArena"
+    },
+    "Florist" : {
+      "@id" : "http://schema.org/Florist"
+    },
+    "Distribution" : {
+      "@id" : "http://www.w3.org/ns/dcat#Distribution"
+    },
+    "AutomotiveBusiness" : {
+      "@id" : "http://schema.org/AutomotiveBusiness"
+    },
+    "Brewery" : {
+      "@id" : "http://schema.org/Brewery"
+    },
+    "OfferCatalog" : {
+      "@id" : "http://schema.org/OfferCatalog"
+    },
+    "Thing" : {
+      "@id" : "http://schema.org/Thing"
+    },
+    "BookStore" : {
+      "@id" : "http://schema.org/BookStore"
+    },
+    "BusTrip" : {
+      "@id" : "http://schema.org/BusTrip"
+    },
+    "BroadcastChannel" : {
+      "@id" : "http://schema.org/BroadcastChannel"
+    },
+    "DeliveryEvent" : {
+      "@id" : "http://schema.org/DeliveryEvent"
+    },
+    "MusicEvent" : {
+      "@id" : "http://schema.org/MusicEvent"
+    },
+    "PresentationDigitalDocument" : {
+      "@id" : "http://schema.org/PresentationDigitalDocument"
+    },
+    "SportsOrganization" : {
+      "@id" : "http://schema.org/SportsOrganization"
+    },
+    "OrderStatus" : {
+      "@id" : "http://schema.org/OrderStatus"
+    },
+    "BusReservation" : {
+      "@id" : "http://schema.org/BusReservation"
+    },
+    "Hotel" : {
+      "@id" : "http://schema.org/Hotel"
+    },
+    "ParcelDelivery" : {
+      "@id" : "http://schema.org/ParcelDelivery"
+    },
+    "SuspendAction" : {
+      "@id" : "http://schema.org/SuspendAction"
+    },
+    "DeactivateAction" : {
+      "@id" : "http://schema.org/DeactivateAction"
+    },
+    "Bridge" : {
+      "@id" : "http://schema.org/Bridge"
+    },
+    "deliveryMethod" : {
+      "@id" : "http://schema.org/deliveryMethod"
+    },
+    "HowToTool" : {
+      "@id" : "http://schema.org/HowToTool"
+    },
+    "RentAction" : {
+      "@id" : "http://schema.org/RentAction"
+    },
+    "JoinAction" : {
+      "@id" : "http://schema.org/JoinAction"
+    },
+    "Room" : {
+      "@id" : "http://schema.org/Room"
+    },
+    "UpdateAction" : {
+      "@id" : "http://schema.org/UpdateAction"
+    },
+    "BankAccount" : {
+      "@id" : "http://schema.org/BankAccount"
+    },
+    "DefenceEstablishment" : {
+      "@id" : "http://schema.org/DefenceEstablishment"
+    },
+    "Product" : {
+      "@id" : "http://schema.org/Product"
+    },
+    "SportsActivityLocation" : {
+      "@id" : "http://schema.org/SportsActivityLocation"
+    },
+    "CampingPitch" : {
+      "@id" : "http://schema.org/CampingPitch"
+    },
+    "CommentAction" : {
+      "@id" : "http://schema.org/CommentAction"
+    },
+    "ScholarlyArticle" : {
+      "@id" : "http://schema.org/ScholarlyArticle"
+    },
+    "Notary" : {
+      "@id" : "http://schema.org/Notary"
+    },
+    "gtin13" : {
+      "@id" : "http://schema.org/gtin13"
+    },
+    "AlignmentObject" : {
+      "@id" : "http://schema.org/AlignmentObject"
+    },
+    "House" : {
+      "@id" : "http://schema.org/House"
+    },
+    "ItemListOrderType" : {
+      "@id" : "http://schema.org/ItemListOrderType"
+    },
+    "Church" : {
+      "@id" : "http://schema.org/Church"
+    },
+    "PerformAction" : {
+      "@id" : "http://schema.org/PerformAction"
+    },
+    "Offer" : {
+      "@id" : "http://schema.org/Offer"
+    },
+    "TouristInformationCenter" : {
+      "@id" : "http://schema.org/TouristInformationCenter"
+    },
+    "PaymentChargeSpecification" : {
+      "@id" : "http://schema.org/PaymentChargeSpecification"
+    },
+    "TravelAction" : {
+      "@id" : "http://schema.org/TravelAction"
+    },
+    "Resort" : {
+      "@id" : "http://schema.org/Resort"
+    },
+    "DatedMoneySpecification" : {
+      "@id" : "http://schema.org/DatedMoneySpecification"
+    },
+    "Waterfall" : {
+      "@id" : "http://schema.org/Waterfall"
+    },
+    "TakeAction" : {
+      "@id" : "http://schema.org/TakeAction"
+    },
+    "GeoCoordinates" : {
+      "@id" : "http://schema.org/GeoCoordinates"
+    },
+    "GovernmentBuilding" : {
+      "@id" : "http://schema.org/GovernmentBuilding"
+    },
+    "Class" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#Class"
+    },
+    "DanceGroup" : {
+      "@id" : "http://schema.org/DanceGroup"
+    },
+    "Course" : {
+      "@id" : "http://schema.org/Course"
+    },
+    "PaymentMethod" : {
+      "@id" : "http://schema.org/PaymentMethod"
+    },
+    "QAPage" : {
+      "@id" : "http://schema.org/QAPage"
+    },
+    "Number" : {
+      "@id" : "http://schema.org/Number"
+    },
+    "Map" : {
+      "@id" : "http://schema.org/Map"
+    },
+    "flightNumber" : {
+      "@id" : "http://schema.org/flightNumber"
+    },
+    "BusinessEntityType" : {
+      "@id" : "http://schema.org/BusinessEntityType"
+    },
+    "image" : {
+      "@id" : "http://schema.org/image"
+    },
+    "MovingCompany" : {
+      "@id" : "http://schema.org/MovingCompany"
+    },
+    "recipeIngredient" : {
+      "@id" : "http://schema.org/recipeIngredient"
+    },
+    "HowToTip" : {
+      "@id" : "http://schema.org/HowToTip"
+    },
+    "SoftwareApplication" : {
+      "@id" : "http://schema.org/SoftwareApplication"
+    },
+    "FindAction" : {
+      "@id" : "http://schema.org/FindAction"
+    },
+    "AutoBodyShop" : {
+      "@id" : "http://schema.org/AutoBodyShop"
+    },
+    "UserInteraction" : {
+      "@id" : "http://schema.org/UserInteraction"
+    },
+    "supersededBy" : {
+      "@id" : "http://schema.org/supersededBy"
+    },
+    "OrganizeAction" : {
+      "@id" : "http://schema.org/OrganizeAction"
+    },
+    "ScheduleAction" : {
+      "@id" : "http://schema.org/ScheduleAction"
+    },
+    "PerformanceRole" : {
+      "@id" : "http://schema.org/PerformanceRole"
+    },
+    "PlayAction" : {
+      "@id" : "http://schema.org/PlayAction"
+    },
+    "HinduTemple" : {
+      "@id" : "http://schema.org/HinduTemple"
+    },
+    "Cemetery" : {
+      "@id" : "http://schema.org/Cemetery"
+    },
+    "domainIncludes" : {
+      "@id" : "http://schema.org/domainIncludes"
+    },
+    "additionalType" : {
+      "@id" : "http://schema.org/additionalType"
+    },
+    "ComputerStore" : {
+      "@id" : "http://schema.org/ComputerStore"
+    },
+    "EducationalAudience" : {
+      "@id" : "http://schema.org/EducationalAudience"
+    },
+    "FireStation" : {
+      "@id" : "http://schema.org/FireStation"
+    },
+    "DepartAction" : {
+      "@id" : "http://schema.org/DepartAction"
+    },
+    "PlaceOfWorship" : {
+      "@id" : "http://schema.org/PlaceOfWorship"
+    },
+    "CreditCard" : {
+      "@id" : "http://schema.org/CreditCard"
+    },
+    "inverseOf" : {
+      "@id" : "http://schema.org/inverseOf"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "ParcelService" : {
+      "@id" : "http://schema.org/ParcelService"
+    },
+    "ProgramMembership" : {
+      "@id" : "http://schema.org/ProgramMembership"
+    },
+    "OutletStore" : {
+      "@id" : "http://schema.org/OutletStore"
+    },
+    "EmployeeRole" : {
+      "@id" : "http://schema.org/EmployeeRole"
+    },
+    "HealthClub" : {
+      "@id" : "http://schema.org/HealthClub"
+    },
+    "HowToSupply" : {
+      "@id" : "http://schema.org/HowToSupply"
+    },
+    "isPartOf" : {
+      "@id" : "http://schema.org/isPartOf"
+    },
+    "ComputerLanguage" : {
+      "@id" : "http://schema.org/ComputerLanguage"
+    },
+    "VideoGameSeries" : {
+      "@id" : "http://schema.org/VideoGameSeries"
+    },
+    "TrainTrip" : {
+      "@id" : "http://schema.org/TrainTrip"
+    },
+    "productID" : {
+      "@id" : "http://schema.org/productID"
+    },
+    "query" : {
+      "@id" : "http://schema.org/query"
+    },
+    "RadioSeason" : {
+      "@id" : "http://schema.org/RadioSeason"
+    },
+    "TelevisionStation" : {
+      "@id" : "http://schema.org/TelevisionStation"
+    },
+    "collection" : {
+      "@id" : "http://schema.org/collection"
+    },
+    "hasPart" : {
+      "@id" : "http://schema.org/hasPart"
+    },
+    "recipient" : {
+      "@id" : "http://schema.org/recipient"
+    },
+    "Barcode" : {
+      "@id" : "http://schema.org/Barcode"
+    },
+    "BankOrCreditUnion" : {
+      "@id" : "http://schema.org/BankOrCreditUnion"
+    },
+    "Question" : {
+      "@id" : "http://schema.org/Question"
+    },
+    "Invoice" : {
+      "@id" : "http://schema.org/Invoice"
+    },
+    "PayAction" : {
+      "@id" : "http://schema.org/PayAction"
+    },
+    "MediaObject" : {
+      "@id" : "http://schema.org/MediaObject"
+    },
+    "about" : {
+      "@id" : "http://schema.org/about"
+    },
+    "BookmarkAction" : {
+      "@id" : "http://schema.org/BookmarkAction"
+    },
+    "WantAction" : {
+      "@id" : "http://schema.org/WantAction"
+    },
+    "BodyOfWater" : {
+      "@id" : "http://schema.org/BodyOfWater"
+    },
+    "HVACBusiness" : {
+      "@id" : "http://schema.org/HVACBusiness"
+    },
+    "loanTerm" : {
+      "@id" : "http://schema.org/loanTerm"
+    },
+    "ControlAction" : {
+      "@id" : "http://schema.org/ControlAction"
+    },
+    "ccRecipient" : {
+      "@id" : "http://schema.org/ccRecipient"
+    },
+    "HousePainter" : {
+      "@id" : "http://schema.org/HousePainter"
+    },
+    "FinancialProduct" : {
+      "@id" : "http://schema.org/FinancialProduct"
+    },
+    "MotorcycleDealer" : {
+      "@id" : "http://schema.org/MotorcycleDealer"
+    },
+    "ImageGallery" : {
+      "@id" : "http://schema.org/ImageGallery"
+    },
+    "InvestmentOrDeposit" : {
+      "@id" : "http://schema.org/InvestmentOrDeposit"
+    },
+    "ApartmentComplex" : {
+      "@id" : "http://schema.org/ApartmentComplex"
+    },
+    "bccRecipient" : {
+      "@id" : "http://schema.org/bccRecipient"
+    },
+    "TechArticle" : {
+      "@id" : "http://schema.org/TechArticle"
+    },
+    "WebSite" : {
+      "@id" : "http://schema.org/WebSite"
+    },
+    "landlord" : {
+      "@id" : "http://schema.org/landlord"
+    },
+    "CancelAction" : {
+      "@id" : "http://schema.org/CancelAction"
+    },
+    "UnitPriceSpecification" : {
+      "@id" : "http://schema.org/UnitPriceSpecification"
+    },
+    "DeleteAction" : {
+      "@id" : "http://schema.org/DeleteAction"
+    },
+    "taxID" : {
+      "@id" : "http://schema.org/taxID"
+    },
+    "option" : {
+      "@id" : "http://schema.org/option"
+    },
+    "TrackAction" : {
+      "@id" : "http://schema.org/TrackAction"
+    },
+    "TieAction" : {
+      "@id" : "http://schema.org/TieAction"
+    },
+    "OnDemandEvent" : {
+      "@id" : "http://schema.org/OnDemandEvent"
+    },
+    "TennisComplex" : {
+      "@id" : "http://schema.org/TennisComplex"
+    },
+    "Plumber" : {
+      "@id" : "http://schema.org/Plumber"
+    },
+    "AccountingService" : {
+      "@id" : "http://schema.org/AccountingService"
+    },
+    "PoliceStation" : {
+      "@id" : "http://schema.org/PoliceStation"
+    },
+    "Episode" : {
+      "@id" : "http://schema.org/Episode"
+    },
+    "Landform" : {
+      "@id" : "http://schema.org/Landform"
+    },
+    "TireShop" : {
+      "@id" : "http://schema.org/TireShop"
+    },
+    "episode" : {
+      "@id" : "http://schema.org/episode"
+    },
+    "RiverBodyOfWater" : {
+      "@id" : "http://schema.org/RiverBodyOfWater"
+    },
+    "MovieClip" : {
+      "@id" : "http://schema.org/MovieClip"
+    },
+    "MusicRelease" : {
+      "@id" : "http://schema.org/MusicRelease"
+    },
+    "SpreadsheetDigitalDocument" : {
+      "@id" : "http://schema.org/SpreadsheetDigitalDocument"
+    },
+    "Reservation" : {
+      "@id" : "http://schema.org/Reservation"
+    },
+    "RegisterAction" : {
+      "@id" : "http://schema.org/RegisterAction"
+    },
+    "ViewAction" : {
+      "@id" : "http://schema.org/ViewAction"
+    },
+    "HomeAndConstructionBusiness" : {
+      "@id" : "http://schema.org/HomeAndConstructionBusiness"
+    },
+    "CheckOutAction" : {
+      "@id" : "http://schema.org/CheckOutAction"
+    },
+    "AutoRepair" : {
+      "@id" : "http://schema.org/AutoRepair"
+    },
+    "TVSeries" : {
+      "@id" : "http://schema.org/TVSeries"
+    },
+    "Event" : {
+      "@id" : "http://schema.org/Event"
+    },
+    "ComedyEvent" : {
+      "@id" : "http://schema.org/ComedyEvent"
+    },
+    "ItemList" : {
+      "@id" : "http://schema.org/ItemList"
+    },
+    "DataDownload" : {
+      "@id" : "http://schema.org/DataDownload"
+    },
+    "WPHeader" : {
+      "@id" : "http://schema.org/WPHeader"
+    },
+    "Airport" : {
+      "@id" : "http://schema.org/Airport"
+    },
+    "GovernmentService" : {
+      "@id" : "http://schema.org/GovernmentService"
+    },
+    "GovernmentOffice" : {
+      "@id" : "http://schema.org/GovernmentOffice"
+    },
+    "MusicRecording" : {
+      "@id" : "http://schema.org/MusicRecording"
+    },
+    "Pond" : {
+      "@id" : "http://schema.org/Pond"
+    },
+    "containsSeason" : {
+      "@id" : "http://schema.org/containsSeason"
+    },
+    "ChildrensEvent" : {
+      "@id" : "http://schema.org/ChildrensEvent"
+    },
+    "FoodEstablishmentReservation" : {
+      "@id" : "http://schema.org/FoodEstablishmentReservation"
+    },
+    "HowToDirection" : {
+      "@id" : "http://schema.org/HowToDirection"
+    },
+    "HardwareStore" : {
+      "@id" : "http://schema.org/HardwareStore"
+    },
+    "Person" : {
+      "@id" : "http://schema.org/Person"
+    },
+    "MovieSeries" : {
+      "@id" : "http://schema.org/MovieSeries"
+    },
+    "BedDetails" : {
+      "@id" : "http://schema.org/BedDetails"
+    },
+    "LegalService" : {
+      "@id" : "http://schema.org/LegalService"
+    },
+    "CafeOrCoffeeShop" : {
+      "@id" : "http://schema.org/CafeOrCoffeeShop"
+    },
+    "CheckoutPage" : {
+      "@id" : "http://schema.org/CheckoutPage"
+    },
+    "sportsTeam" : {
+      "@id" : "http://schema.org/sportsTeam"
+    },
+    "WholesaleStore" : {
+      "@id" : "http://schema.org/WholesaleStore"
+    },
+    "Preschool" : {
+      "@id" : "http://schema.org/Preschool"
+    },
+    "FurnitureStore" : {
+      "@id" : "http://schema.org/FurnitureStore"
+    },
+    "MusicVenue" : {
+      "@id" : "http://schema.org/MusicVenue"
+    },
+    "DataCatalog" : {
+      "@id" : "http://schema.org/DataCatalog"
+    },
+    "ScreeningEvent" : {
+      "@id" : "http://schema.org/ScreeningEvent"
+    },
+    "OrderAction" : {
+      "@id" : "http://schema.org/OrderAction"
+    },
+    "closeMatch" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#closeMatch"
+    },
+    "BedAndBreakfast" : {
+      "@id" : "http://schema.org/BedAndBreakfast"
+    },
+    "WPFooter" : {
+      "@id" : "http://schema.org/WPFooter"
+    },
+    "WebApplication" : {
+      "@id" : "http://schema.org/WebApplication"
+    },
+    "Date" : {
+      "@id" : "http://schema.org/Date"
+    },
+    "ApplyAction" : {
+      "@id" : "http://schema.org/ApplyAction"
+    },
+    "PropertyValue" : {
+      "@id" : "http://schema.org/PropertyValue"
+    },
+    "LocalBusiness" : {
+      "@id" : "http://schema.org/LocalBusiness"
+    },
+    "GiveAction" : {
+      "@id" : "http://schema.org/GiveAction"
+    },
+    "Report" : {
+      "@id" : "http://schema.org/Report"
+    },
+    "ClothingStore" : {
+      "@id" : "http://schema.org/ClothingStore"
+    },
+    "mainEntity" : {
+      "@id" : "http://schema.org/mainEntity"
+    },
+    "LockerDelivery" : {
+      "@id" : "http://schema.org/LockerDelivery"
+    },
+    "InviteAction" : {
+      "@id" : "http://schema.org/InviteAction"
+    },
+    "ExerciseAction" : {
+      "@id" : "http://schema.org/ExerciseAction"
+    },
+    "MusicReleaseFormatType" : {
+      "@id" : "http://schema.org/MusicReleaseFormatType"
+    },
+    "Conversation" : {
+      "@id" : "http://schema.org/Conversation"
+    },
+    "ActivateAction" : {
+      "@id" : "http://schema.org/ActivateAction"
+    },
+    "LiveBlogPosting" : {
+      "@id" : "http://schema.org/LiveBlogPosting"
+    },
+    "VideoGallery" : {
+      "@id" : "http://schema.org/VideoGallery"
+    },
+    "OfficeEquipmentStore" : {
+      "@id" : "http://schema.org/OfficeEquipmentStore"
+    },
+    "MensClothingStore" : {
+      "@id" : "http://schema.org/MensClothingStore"
+    },
+    "Book" : {
+      "@id" : "http://schema.org/Book"
+    },
+    "Ticket" : {
+      "@id" : "http://schema.org/Ticket"
+    },
+    "GovernmentOrganization" : {
+      "@id" : "http://schema.org/GovernmentOrganization"
+    },
+    "BroadcastEvent" : {
+      "@id" : "http://schema.org/BroadcastEvent"
+    },
+    "competitor" : {
+      "@id" : "http://schema.org/competitor"
+    },
+    "sportsEvent" : {
+      "@id" : "http://schema.org/sportsEvent"
+    },
+    "ImageObject" : {
+      "@id" : "http://schema.org/ImageObject"
+    },
+    "foodEstablishment" : {
+      "@id" : "http://schema.org/foodEstablishment"
+    },
+    "VideoObject" : {
+      "@id" : "http://schema.org/VideoObject"
+    },
+    "sportsActivityLocation" : {
+      "@id" : "http://schema.org/sportsActivityLocation"
+    },
+    "position" : {
+      "@id" : "http://schema.org/position"
+    },
+    "WarrantyPromise" : {
+      "@id" : "http://schema.org/WarrantyPromise"
+    },
+    "InternetCafe" : {
+      "@id" : "http://schema.org/InternetCafe"
+    },
+    "Synagogue" : {
+      "@id" : "http://schema.org/Synagogue"
+    },
+    "MusicVideoObject" : {
+      "@id" : "http://schema.org/MusicVideoObject"
+    },
+    "vehicleIdentificationNumber" : {
+      "@id" : "http://schema.org/vehicleIdentificationNumber"
+    },
+    "PetStore" : {
+      "@id" : "http://schema.org/PetStore"
+    },
+    "Physician" : {
+      "@id" : "http://schema.org/Physician"
+    },
+    "FoodEvent" : {
+      "@id" : "http://schema.org/FoodEvent"
+    },
+    "Energy" : {
+      "@id" : "http://schema.org/Energy"
+    },
+    "PeopleAudience" : {
+      "@id" : "http://schema.org/PeopleAudience"
+    },
+    "Role" : {
+      "@id" : "http://schema.org/Role"
+    },
+    "HowToStep" : {
+      "@id" : "http://schema.org/HowToStep"
+    },
+    "Crematorium" : {
+      "@id" : "http://schema.org/Crematorium"
+    },
+    "InteractionCounter" : {
+      "@id" : "http://schema.org/InteractionCounter"
+    },
+    "ContactPoint" : {
+      "@id" : "http://schema.org/ContactPoint"
+    },
+    "BoardingPolicyType" : {
+      "@id" : "http://schema.org/BoardingPolicyType"
+    },
+    "EducationalOrganization" : {
+      "@id" : "http://schema.org/EducationalOrganization"
+    },
+    "UserTweets" : {
+      "@id" : "http://schema.org/UserTweets"
+    },
+    "Article" : {
+      "@id" : "http://schema.org/Article"
+    },
+    "LegislativeBuilding" : {
+      "@id" : "http://schema.org/LegislativeBuilding"
+    },
+    "OceanBodyOfWater" : {
+      "@id" : "http://schema.org/OceanBodyOfWater"
+    },
+    "BusinessEvent" : {
+      "@id" : "http://schema.org/BusinessEvent"
+    },
+    "NightClub" : {
+      "@id" : "http://schema.org/NightClub"
+    },
+    "toLocation" : {
+      "@id" : "http://schema.org/toLocation"
+    },
+    "LakeBodyOfWater" : {
+      "@id" : "http://schema.org/LakeBodyOfWater"
+    },
+    "Menu" : {
+      "@id" : "http://schema.org/Menu"
+    },
+    "funder" : {
+      "@id" : "http://schema.org/funder"
+    },
+    "GovernmentPermit" : {
+      "@id" : "http://schema.org/GovernmentPermit"
+    },
+    "ContactPointOption" : {
+      "@id" : "http://schema.org/ContactPointOption"
+    },
+    "CookAction" : {
+      "@id" : "http://schema.org/CookAction"
+    },
+    "OrganizationRole" : {
+      "@id" : "http://schema.org/OrganizationRole"
+    },
+    "surface" : {
+      "@id" : "http://schema.org/surface"
+    },
+    "UserPlays" : {
+      "@id" : "http://schema.org/UserPlays"
+    },
+    "resultReview" : {
+      "@id" : "http://schema.org/resultReview"
+    },
+    "StructuredValue" : {
+      "@id" : "http://schema.org/StructuredValue"
+    },
+    "rangeIncludes" : {
+      "@id" : "http://schema.org/rangeIncludes"
+    },
+    "FlightReservation" : {
+      "@id" : "http://schema.org/FlightReservation"
+    },
+    "Mass" : {
+      "@id" : "http://schema.org/Mass"
+    },
+    "TradeAction" : {
+      "@id" : "http://schema.org/TradeAction"
+    },
+    "UserDownloads" : {
+      "@id" : "http://schema.org/UserDownloads"
+    },
+    "FilmAction" : {
+      "@id" : "http://schema.org/FilmAction"
+    },
+    "IgnoreAction" : {
+      "@id" : "http://schema.org/IgnoreAction"
+    },
+    "NailSalon" : {
+      "@id" : "http://schema.org/NailSalon"
+    },
+    "WebPageElement" : {
+      "@id" : "http://schema.org/WebPageElement"
+    },
+    "ProfessionalService" : {
+      "@id" : "http://schema.org/ProfessionalService"
+    },
+    "Sculpture" : {
+      "@id" : "http://schema.org/Sculpture"
+    },
+    "location" : {
+      "@id" : "http://schema.org/location"
+    },
+    "followee" : {
+      "@id" : "http://schema.org/followee"
+    },
+    "participant" : {
+      "@id" : "http://schema.org/participant"
+    },
+    "GameServer" : {
+      "@id" : "http://schema.org/GameServer"
+    },
+    "AutoRental" : {
+      "@id" : "http://schema.org/AutoRental"
+    },
+    "CreativeWork" : {
+      "@id" : "http://schema.org/CreativeWork"
+    },
+    "MusicStore" : {
+      "@id" : "http://schema.org/MusicStore"
+    },
+    "workFeatured" : {
+      "@id" : "http://schema.org/workFeatured"
+    },
+    "Library" : {
+      "@id" : "http://schema.org/Library"
+    },
+    "ReservationStatusType" : {
+      "@id" : "http://schema.org/ReservationStatusType"
+    },
+    "entertainmentBusiness" : {
+      "@id" : "http://schema.org/entertainmentBusiness"
+    },
+    "Issue" : {
+      "@id" : "http://purl.org/ontology/bibo/Issue"
+    },
+    "Taxi" : {
+      "@id" : "http://schema.org/Taxi"
+    },
+    "AggregateRating" : {
+      "@id" : "http://schema.org/AggregateRating"
+    },
+    "MenuItem" : {
+      "@id" : "http://schema.org/MenuItem"
+    },
+    "Bakery" : {
+      "@id" : "http://schema.org/Bakery"
+    },
+    "MarryAction" : {
+      "@id" : "http://schema.org/MarryAction"
+    },
+    "Catalog" : {
+      "@id" : "http://www.w3.org/ns/dcat#Catalog"
+    },
+    "SaleEvent" : {
+      "@id" : "http://schema.org/SaleEvent"
+    },
+    "workPresented" : {
+      "@id" : "http://schema.org/workPresented"
+    },
+    "Locksmith" : {
+      "@id" : "http://schema.org/Locksmith"
+    },
+    "RsvpAction" : {
+      "@id" : "http://schema.org/RsvpAction"
+    },
+    "UserPlusOnes" : {
+      "@id" : "http://schema.org/UserPlusOnes"
+    },
+    "JewelryStore" : {
+      "@id" : "http://schema.org/JewelryStore"
+    },
+    "RadioEpisode" : {
+      "@id" : "http://schema.org/RadioEpisode"
+    },
+    "ConsumeAction" : {
+      "@id" : "http://schema.org/ConsumeAction"
+    },
+    "disambiguatingDescription" : {
+      "@id" : "http://schema.org/disambiguatingDescription"
+    },
+    "Car" : {
+      "@id" : "http://schema.org/Car"
+    },
+    "MiddleSchool" : {
+      "@id" : "http://schema.org/MiddleSchool"
+    },
+    "ingredients" : {
+      "@id" : "http://schema.org/ingredients"
+    },
+    "APIReference" : {
+      "@id" : "http://schema.org/APIReference"
+    },
+    "Corporation" : {
+      "@id" : "http://schema.org/Corporation"
+    },
+    "Canal" : {
+      "@id" : "http://schema.org/Canal"
+    },
+    "SkiResort" : {
+      "@id" : "http://schema.org/SkiResort"
+    },
+    "ServiceChannel" : {
+      "@id" : "http://schema.org/ServiceChannel"
+    },
+    "Seat" : {
+      "@id" : "http://schema.org/Seat"
+    },
+    "CreativeWorkSeason" : {
+      "@id" : "http://schema.org/CreativeWorkSeason"
+    },
+    "supply" : {
+      "@id" : "http://schema.org/supply"
+    },
+    "seasonNumber" : {
+      "@id" : "http://schema.org/seasonNumber"
+    },
+    "BlogPosting" : {
+      "@id" : "http://schema.org/BlogPosting"
+    },
+    "MobileApplication" : {
+      "@id" : "http://schema.org/MobileApplication"
+    },
+    "CurrencyConversionService" : {
+      "@id" : "http://schema.org/CurrencyConversionService"
+    },
+    "AssessAction" : {
+      "@id" : "http://schema.org/AssessAction"
+    },
+    "PostalAddress" : {
+      "@id" : "http://schema.org/PostalAddress"
+    },
+    "ComedyClub" : {
+      "@id" : "http://schema.org/ComedyClub"
+    },
+    "question" : {
+      "@id" : "http://schema.org/question"
+    },
+    "Audience" : {
+      "@id" : "http://schema.org/Audience"
+    },
+    "HowTo" : {
+      "@id" : "http://schema.org/HowTo"
+    },
+    "identifier" : {
+      "@id" : "http://schema.org/identifier"
+    },
+    "VoteAction" : {
+      "@id" : "http://schema.org/VoteAction"
+    },
+    "AudioObject" : {
+      "@id" : "http://schema.org/AudioObject"
+    },
+    "MovieRentalStore" : {
+      "@id" : "http://schema.org/MovieRentalStore"
+    },
+    "PaymentStatusType" : {
+      "@id" : "http://schema.org/PaymentStatusType"
+    },
+    "TVSeason" : {
+      "@id" : "http://schema.org/TVSeason"
+    },
+    "SendAction" : {
+      "@id" : "http://schema.org/SendAction"
+    },
+    "Quantity" : {
+      "@id" : "http://schema.org/Quantity"
+    },
+    "QuoteAction" : {
+      "@id" : "http://schema.org/QuoteAction"
+    },
+    "WinAction" : {
+      "@id" : "http://schema.org/WinAction"
+    },
+    "LoseAction" : {
+      "@id" : "http://schema.org/LoseAction"
+    },
+    "Campground" : {
+      "@id" : "http://schema.org/Campground"
+    },
+    "workPerformed" : {
+      "@id" : "http://schema.org/workPerformed"
+    },
+    "Distance" : {
+      "@id" : "http://schema.org/Distance"
+    },
+    "FoodEstablishment" : {
+      "@id" : "http://schema.org/FoodEstablishment"
+    },
+    "Message" : {
+      "@id" : "http://schema.org/Message"
+    },
+    "DeliveryMethod" : {
+      "@id" : "http://schema.org/DeliveryMethod"
+    },
+    "MovieTheater" : {
+      "@id" : "http://schema.org/MovieTheater"
+    },
+    "ShoeStore" : {
+      "@id" : "http://schema.org/ShoeStore"
+    },
+    "CivicStructure" : {
+      "@id" : "http://schema.org/CivicStructure"
+    },
+    "Rating" : {
+      "@id" : "http://schema.org/Rating"
+    },
+    "DiscoverAction" : {
+      "@id" : "http://schema.org/DiscoverAction"
+    },
+    "SelfStorage" : {
+      "@id" : "http://schema.org/SelfStorage"
+    },
+    "WearAction" : {
+      "@id" : "http://schema.org/WearAction"
+    },
+    "Photograph" : {
+      "@id" : "http://schema.org/Photograph"
+    },
+    "ItemAvailability" : {
+      "@id" : "http://schema.org/ItemAvailability"
+    },
+    "Blog" : {
+      "@id" : "http://schema.org/Blog"
+    },
+    "PublicationEvent" : {
+      "@id" : "http://schema.org/PublicationEvent"
+    },
+    "sponsor" : {
+      "@id" : "http://schema.org/sponsor"
+    },
+    "GameServerStatus" : {
+      "@id" : "http://schema.org/GameServerStatus"
+    },
+    "SportsEvent" : {
+      "@id" : "http://schema.org/SportsEvent"
+    },
+    "artMedium" : {
+      "@id" : "http://schema.org/artMedium"
+    },
+    "endorsee" : {
+      "@id" : "http://schema.org/endorsee"
+    },
+    "ProfilePage" : {
+      "@id" : "http://schema.org/ProfilePage"
+    },
+    "Duration" : {
+      "@id" : "http://schema.org/Duration"
+    },
+    "ShareAction" : {
+      "@id" : "http://schema.org/ShareAction"
+    },
+    "ReactAction" : {
+      "@id" : "http://schema.org/ReactAction"
+    },
+    "SportsTeam" : {
+      "@id" : "http://schema.org/SportsTeam"
+    },
+    "photo" : {
+      "@id" : "http://schema.org/photo"
+    },
+    "DataFeed" : {
+      "@id" : "http://schema.org/DataFeed"
+    },
+    "TipAction" : {
+      "@id" : "http://schema.org/TipAction"
+    },
+    "gtin14" : {
+      "@id" : "http://schema.org/gtin14"
+    },
+    "Place" : {
+      "@id" : "http://schema.org/Place"
+    },
+    "IndividualProduct" : {
+      "@id" : "http://schema.org/IndividualProduct"
+    },
+    "instrument" : {
+      "@id" : "http://schema.org/instrument"
+    },
+    "Recipe" : {
+      "@id" : "http://schema.org/Recipe"
+    },
+    "TelevisionChannel" : {
+      "@id" : "http://schema.org/TelevisionChannel"
+    },
+    "PropertyValueSpecification" : {
+      "@id" : "http://schema.org/PropertyValueSpecification"
+    },
+    "Specialty" : {
+      "@id" : "http://schema.org/Specialty"
+    },
+    "MedicalOrganization" : {
+      "@id" : "http://schema.org/MedicalOrganization"
+    },
+    "clipNumber" : {
+      "@id" : "http://schema.org/clipNumber"
+    },
+    "Integer" : {
+      "@id" : "http://schema.org/Integer"
+    },
+    "gtin12" : {
+      "@id" : "http://schema.org/gtin12"
+    },
+    "EndorseAction" : {
+      "@id" : "http://schema.org/EndorseAction"
+    },
+    "ReceiveAction" : {
+      "@id" : "http://schema.org/ReceiveAction"
+    },
+    "spatialCoverage" : {
+      "@id" : "http://schema.org/spatialCoverage"
+    },
+    "Restaurant" : {
+      "@id" : "http://schema.org/Restaurant"
+    },
+    "ContactPage" : {
+      "@id" : "http://schema.org/ContactPage"
+    },
+    "LocationFeatureSpecification" : {
+      "@id" : "http://schema.org/LocationFeatureSpecification"
+    },
+    "NutritionInformation" : {
+      "@id" : "http://schema.org/NutritionInformation"
+    },
+    "lender" : {
+      "@id" : "http://schema.org/lender"
+    },
+    "CollegeOrUniversity" : {
+      "@id" : "http://schema.org/CollegeOrUniversity"
+    },
+    "AdultEntertainment" : {
+      "@id" : "http://schema.org/AdultEntertainment"
+    },
+    "SoftwareSourceCode" : {
+      "@id" : "http://schema.org/SoftwareSourceCode"
+    },
+    "winner" : {
+      "@id" : "http://schema.org/winner"
+    },
+    "PawnShop" : {
+      "@id" : "http://schema.org/PawnShop"
+    },
+    "BeautySalon" : {
+      "@id" : "http://schema.org/BeautySalon"
+    },
+    "opponent" : {
+      "@id" : "http://schema.org/opponent"
+    },
+    "AuthorizeAction" : {
+      "@id" : "http://schema.org/AuthorizeAction"
+    },
+    "EducationEvent" : {
+      "@id" : "http://schema.org/EducationEvent"
+    },
+    "CreativeWorkSeries" : {
+      "@id" : "http://schema.org/CreativeWorkSeries"
+    },
+    "TheaterGroup" : {
+      "@id" : "http://schema.org/TheaterGroup"
+    },
+    "UserComments" : {
+      "@id" : "http://schema.org/UserComments"
+    },
+    "Playground" : {
+      "@id" : "http://schema.org/Playground"
+    },
+    "RsvpResponseType" : {
+      "@id" : "http://schema.org/RsvpResponseType"
+    },
+    "GenderType" : {
+      "@id" : "http://schema.org/GenderType"
+    },
+    "areaServed" : {
+      "@id" : "http://schema.org/areaServed"
+    },
+    "Mosque" : {
+      "@id" : "http://schema.org/Mosque"
+    },
+    "DanceEvent" : {
+      "@id" : "http://schema.org/DanceEvent"
+    },
+    "Movie" : {
+      "@id" : "http://schema.org/Movie"
+    },
+    "AboutPage" : {
+      "@id" : "http://schema.org/AboutPage"
+    },
+    "PublicSwimmingPool" : {
+      "@id" : "http://schema.org/PublicSwimmingPool"
+    },
+    "RentalCarReservation" : {
+      "@id" : "http://schema.org/RentalCarReservation"
+    },
+    "partOfEpisode" : {
+      "@id" : "http://schema.org/partOfEpisode"
+    },
+    "DaySpa" : {
+      "@id" : "http://schema.org/DaySpa"
+    },
+    "targetCollection" : {
+      "@id" : "http://schema.org/targetCollection"
+    },
+    "AmusementPark" : {
+      "@id" : "http://schema.org/AmusementPark"
+    },
+    "MusicAlbumProductionType" : {
+      "@id" : "http://schema.org/MusicAlbumProductionType"
+    },
+    "duration" : {
+      "@id" : "http://schema.org/duration"
+    },
+    "AutoDealer" : {
+      "@id" : "http://schema.org/AutoDealer"
+    },
+    "duns" : {
+      "@id" : "http://schema.org/duns"
+    },
+    "SportsClub" : {
+      "@id" : "http://schema.org/SportsClub"
+    },
+    "issn" : {
+      "@id" : "http://schema.org/issn"
+    },
+    "PostOffice" : {
+      "@id" : "http://schema.org/PostOffice"
+    },
+    "SomeProducts" : {
+      "@id" : "http://schema.org/SomeProducts"
+    },
+    "ShoppingCenter" : {
+      "@id" : "http://schema.org/ShoppingCenter"
+    },
+    "performTime" : {
+      "@id" : "http://schema.org/performTime"
+    },
+    "HomeGoodsStore" : {
+      "@id" : "http://schema.org/HomeGoodsStore"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/terms/source"
+    },
+    "LoanOrCredit" : {
+      "@id" : "http://schema.org/LoanOrCredit"
+    },
+    "EntryPoint" : {
+      "@id" : "http://schema.org/EntryPoint"
+    },
+    "GolfCourse" : {
+      "@id" : "http://schema.org/GolfCourse"
+    },
+    "suggestedAnswer" : {
+      "@id" : "http://schema.org/suggestedAnswer"
+    },
+    "BusStation" : {
+      "@id" : "http://schema.org/BusStation"
+    },
+    "SubscribeAction" : {
+      "@id" : "http://schema.org/SubscribeAction"
+    },
+    "AssignAction" : {
+      "@id" : "http://schema.org/AssignAction"
+    },
+    "type" : {
+      "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+    },
+    "ResumeAction" : {
+      "@id" : "http://schema.org/ResumeAction"
+    },
+    "ParentAudience" : {
+      "@id" : "http://schema.org/ParentAudience"
+    },
+    "DigitalDocument" : {
+      "@id" : "http://schema.org/DigitalDocument"
+    },
+    "InstallAction" : {
+      "@id" : "http://schema.org/InstallAction"
+    },
+    "SingleFamilyResidence" : {
+      "@id" : "http://schema.org/SingleFamilyResidence"
+    },
+    "Demand" : {
+      "@id" : "http://schema.org/Demand"
+    },
+    "SiteNavigationElement" : {
+      "@id" : "http://schema.org/SiteNavigationElement"
+    },
+    "AcceptAction" : {
+      "@id" : "http://schema.org/AcceptAction"
+    },
+    "MusicPlaylist" : {
+      "@id" : "http://schema.org/MusicPlaylist"
+    },
+    "Apartment" : {
+      "@id" : "http://schema.org/Apartment"
+    },
+    "Hospital" : {
+      "@id" : "http://schema.org/Hospital"
+    },
+    "ConvenienceStore" : {
+      "@id" : "http://schema.org/ConvenienceStore"
+    },
+    "partOfTVSeries" : {
+      "@id" : "http://schema.org/partOfTVSeries"
+    },
+    "BroadcastService" : {
+      "@id" : "http://schema.org/BroadcastService"
+    },
+    "Electrician" : {
+      "@id" : "http://schema.org/Electrician"
+    },
+    "realEstateAgent" : {
+      "@id" : "http://schema.org/realEstateAgent"
+    },
+    "DryCleaningOrLaundry" : {
+      "@id" : "http://schema.org/DryCleaningOrLaundry"
+    },
+    "TVEpisode" : {
+      "@id" : "http://schema.org/TVEpisode"
+    },
+    "LendAction" : {
+      "@id" : "http://schema.org/LendAction"
+    },
+    "Suite" : {
+      "@id" : "http://schema.org/Suite"
+    },
+    "Museum" : {
+      "@id" : "http://schema.org/Museum"
+    },
+    "AppendAction" : {
+      "@id" : "http://schema.org/AppendAction"
+    },
+    "PublicationVolume" : {
+      "@id" : "http://schema.org/PublicationVolume"
+    },
+    "Airline" : {
+      "@id" : "http://schema.org/Airline"
+    },
+    "MenuSection" : {
+      "@id" : "http://schema.org/MenuSection"
+    },
+    "EatAction" : {
+      "@id" : "http://schema.org/EatAction"
+    },
+    "ReplaceAction" : {
+      "@id" : "http://schema.org/ReplaceAction"
+    },
+    "OfferItemCondition" : {
+      "@id" : "http://schema.org/OfferItemCondition"
+    },
+    "EventStatusType" : {
+      "@id" : "http://schema.org/EventStatusType"
+    },
+    "OpeningHoursSpecification" : {
+      "@id" : "http://schema.org/OpeningHoursSpecification"
+    },
+    "RejectAction" : {
+      "@id" : "http://schema.org/RejectAction"
+    },
+    "WebPage" : {
+      "@id" : "http://schema.org/WebPage"
+    },
+    "LiquorStore" : {
+      "@id" : "http://schema.org/LiquorStore"
+    },
+    "HowToItem" : {
+      "@id" : "http://schema.org/HowToItem"
+    },
+    "ExerciseGym" : {
+      "@id" : "http://schema.org/ExerciseGym"
+    },
+    "Pharmacy" : {
+      "@id" : "http://schema.org/Pharmacy"
+    },
+    "orderNumber" : {
+      "@id" : "http://schema.org/orderNumber"
+    },
+    "Continent" : {
+      "@id" : "http://schema.org/Continent"
+    },
+    "Game" : {
+      "@id" : "http://schema.org/Game"
+    },
+    "partOfSeries" : {
+      "@id" : "http://schema.org/partOfSeries"
+    },
+    "IceCreamShop" : {
+      "@id" : "http://schema.org/IceCreamShop"
+    },
+    "Mountain" : {
+      "@id" : "http://schema.org/Mountain"
+    },
+    "Flight" : {
+      "@id" : "http://schema.org/Flight"
+    },
+    "ChildCare" : {
+      "@id" : "http://schema.org/ChildCare"
+    },
+    "Festival" : {
+      "@id" : "http://schema.org/Festival"
+    },
+    "EntertainmentBusiness" : {
+      "@id" : "http://schema.org/EntertainmentBusiness"
+    },
+    "School" : {
+      "@id" : "http://schema.org/School"
+    },
+    "logo" : {
+      "@id" : "http://schema.org/logo"
+    },
+    "QuantitativeValue" : {
+      "@id" : "http://schema.org/QuantitativeValue"
+    },
+    "EventVenue" : {
+      "@id" : "http://schema.org/EventVenue"
+    },
+    "BookFormatType" : {
+      "@id" : "http://schema.org/BookFormatType"
+    },
+    "PaymentCard" : {
+      "@id" : "http://schema.org/PaymentCard"
+    },
+    "HobbyShop" : {
+      "@id" : "http://schema.org/HobbyShop"
+    },
+    "PerformingGroup" : {
+      "@id" : "http://schema.org/PerformingGroup"
+    },
+    "Series" : {
+      "@id" : "http://schema.org/Series"
+    },
+    "tool" : {
+      "@id" : "http://schema.org/tool"
+    },
+    "EngineSpecification" : {
+      "@id" : "http://schema.org/EngineSpecification"
+    },
+    "ExhibitionEvent" : {
+      "@id" : "http://schema.org/ExhibitionEvent"
+    },
+    "Text" : {
+      "@id" : "http://schema.org/Text"
+    },
+    "MusicAlbumReleaseType" : {
+      "@id" : "http://schema.org/MusicAlbumReleaseType"
+    },
+    "LandmarksOrHistoricalBuildings" : {
+      "@id" : "http://schema.org/LandmarksOrHistoricalBuildings"
+    },
+    "Periodical" : {
+      "@id" : "http://purl.org/ontology/bibo/Periodical"
+    },
+    "CreateAction" : {
+      "@id" : "http://schema.org/CreateAction"
+    },
+    "Clip" : {
+      "@id" : "http://schema.org/Clip"
+    },
+    "EmploymentAgency" : {
+      "@id" : "http://schema.org/EmploymentAgency"
+    },
+    "WPAdBlock" : {
+      "@id" : "http://schema.org/WPAdBlock"
+    },
+    "PlanAction" : {
+      "@id" : "http://schema.org/PlanAction"
+    },
+    "GeneralContractor" : {
+      "@id" : "http://schema.org/GeneralContractor"
+    },
+    "City" : {
+      "@id" : "http://schema.org/City"
+    },
+    "Language" : {
+      "@id" : "http://schema.org/Language"
+    },
+    "State" : {
+      "@id" : "http://schema.org/State"
+    },
+    "confirmationNumber" : {
+      "@id" : "http://schema.org/confirmationNumber"
+    },
+    "PriceSpecification" : {
+      "@id" : "http://schema.org/PriceSpecification"
+    },
+    "TaxiStand" : {
+      "@id" : "http://schema.org/TaxiStand"
+    },
+    "cookTime" : {
+      "@id" : "http://schema.org/cookTime"
+    },
+    "MapCategoryType" : {
+      "@id" : "http://schema.org/MapCategoryType"
+    },
+    "category" : {
+      "@id" : "http://schema.org/category"
+    },
+    "NoteDigitalDocument" : {
+      "@id" : "http://schema.org/NoteDigitalDocument"
+    },
+    "AgreeAction" : {
+      "@id" : "http://schema.org/AgreeAction"
+    },
+    "homeLocation" : {
+      "@id" : "http://schema.org/homeLocation"
+    },
+    "ChooseAction" : {
+      "@id" : "http://schema.org/ChooseAction"
+    },
+    "WatchAction" : {
+      "@id" : "http://schema.org/WatchAction"
+    },
+    "ListenAction" : {
+      "@id" : "http://schema.org/ListenAction"
+    },
+    "SeaBodyOfWater" : {
+      "@id" : "http://schema.org/SeaBodyOfWater"
+    },
+    "BreadcrumbList" : {
+      "@id" : "http://schema.org/BreadcrumbList"
+    },
+    "TouristAttraction" : {
+      "@id" : "http://schema.org/TouristAttraction"
+    },
+    "RecyclingCenter" : {
+      "@id" : "http://schema.org/RecyclingCenter"
+    },
+    "GeoCircle" : {
+      "@id" : "http://schema.org/GeoCircle"
+    },
+    "acceptedAnswer" : {
+      "@id" : "http://schema.org/acceptedAnswer"
+    },
+    "SearchAction" : {
+      "@id" : "http://schema.org/SearchAction"
+    },
+    "ReplyAction" : {
+      "@id" : "http://schema.org/ReplyAction"
+    },
+    "ParkingFacility" : {
+      "@id" : "http://schema.org/ParkingFacility"
+    },
+    "replacer" : {
+      "@id" : "http://schema.org/replacer"
+    },
+    "GardenStore" : {
+      "@id" : "http://schema.org/GardenStore"
+    },
+    "memberOf" : {
+      "@id" : "http://schema.org/memberOf"
+    },
+    "AnimalShelter" : {
+      "@id" : "http://schema.org/AnimalShelter"
+    },
+    "sameAs" : {
+      "@id" : "http://schema.org/sameAs"
+    },
+    "Enumeration" : {
+      "@id" : "http://schema.org/Enumeration"
+    },
+    "AddAction" : {
+      "@id" : "http://schema.org/AddAction"
+    },
+    "RestrictedDiet" : {
+      "@id" : "http://schema.org/RestrictedDiet"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "PublicationIssue" : {
+      "@id" : "http://schema.org/PublicationIssue"
+    },
+    "ProductModel" : {
+      "@id" : "http://schema.org/ProductModel"
+    },
+    "Service" : {
+      "@id" : "http://schema.org/Service"
+    },
+    "DrinkAction" : {
+      "@id" : "http://schema.org/DrinkAction"
+    },
+    "Image" : {
+      "@id" : "http://purl.org/dc/dcmitype/Image"
+    },
+    "Beach" : {
+      "@id" : "http://schema.org/Beach"
+    },
+    "seller" : {
+      "@id" : "http://schema.org/seller"
+    },
+    "Code" : {
+      "@id" : "http://schema.org/Code"
+    },
+    "language" : {
+      "@id" : "http://schema.org/language"
+    },
+    "MusicAlbum" : {
+      "@id" : "http://schema.org/MusicAlbum"
+    },
+    "BusStop" : {
+      "@id" : "http://schema.org/BusStop"
+    },
+    "Casino" : {
+      "@id" : "http://schema.org/Casino"
+    },
+    "EventReservation" : {
+      "@id" : "http://schema.org/EventReservation"
+    },
+    "Hostel" : {
+      "@id" : "http://schema.org/Hostel"
+    },
+    "CheckInAction" : {
+      "@id" : "http://schema.org/CheckInAction"
+    },
+    "RVPark" : {
+      "@id" : "http://schema.org/RVPark"
+    },
+    "BowlingAlley" : {
+      "@id" : "http://schema.org/BowlingAlley"
+    },
+    "LodgingReservation" : {
+      "@id" : "http://schema.org/LodgingReservation"
+    },
+    "fromLocation" : {
+      "@id" : "http://schema.org/fromLocation"
+    },
+    "GeoShape" : {
+      "@id" : "http://schema.org/GeoShape"
+    },
+    "partOfSeason" : {
+      "@id" : "http://schema.org/partOfSeason"
+    },
+    "sender" : {
+      "@id" : "http://schema.org/sender"
+    },
+    "VisualArtwork" : {
+      "@id" : "http://schema.org/VisualArtwork"
+    },
+    "DiscussionForumPosting" : {
+      "@id" : "http://schema.org/DiscussionForumPosting"
+    },
+    "course" : {
+      "@id" : "http://schema.org/course"
+    },
+    "Table" : {
+      "@id" : "http://schema.org/Table"
+    },
+    "Motel" : {
+      "@id" : "http://schema.org/Motel"
+    },
+    "FinancialService" : {
+      "@id" : "http://schema.org/FinancialService"
+    },
+    "UseAction" : {
+      "@id" : "http://schema.org/UseAction"
+    },
+    "AutoPartsStore" : {
+      "@id" : "http://schema.org/AutoPartsStore"
+    },
+    "TypeAndQuantityNode" : {
+      "@id" : "http://schema.org/TypeAndQuantityNode"
+    },
+    "ActionStatusType" : {
+      "@id" : "http://schema.org/ActionStatusType"
+    },
+    "ReviewAction" : {
+      "@id" : "http://schema.org/ReviewAction"
+    },
+    "DisagreeAction" : {
+      "@id" : "http://schema.org/DisagreeAction"
+    },
+    "ClaimReview" : {
+      "@id" : "http://schema.org/ClaimReview"
+    },
+    "AutoWash" : {
+      "@id" : "http://schema.org/AutoWash"
+    },
+    "ReservationPackage" : {
+      "@id" : "http://schema.org/ReservationPackage"
+    },
+    "NewsArticle" : {
+      "@id" : "http://schema.org/NewsArticle"
+    },
+    "TravelAgency" : {
+      "@id" : "http://schema.org/TravelAgency"
+    },
+    "AutomatedTeller" : {
+      "@id" : "http://schema.org/AutomatedTeller"
+    },
+    "ToyStore" : {
+      "@id" : "http://schema.org/ToyStore"
+    },
+    "MusicGroup" : {
+      "@id" : "http://schema.org/MusicGroup"
+    },
+    "AllocateAction" : {
+      "@id" : "http://schema.org/AllocateAction"
+    },
+    "HealthAndBeautyBusiness" : {
+      "@id" : "http://schema.org/HealthAndBeautyBusiness"
+    },
+    "SubwayStation" : {
+      "@id" : "http://schema.org/SubwayStation"
+    },
+    "homeTeam" : {
+      "@id" : "http://schema.org/homeTeam"
+    },
+    "Brand" : {
+      "@id" : "http://schema.org/Brand"
+    },
+    "DownloadAction" : {
+      "@id" : "http://schema.org/DownloadAction"
+    },
+    "TattooParlor" : {
+      "@id" : "http://schema.org/TattooParlor"
+    },
+    "BuddhistTemple" : {
+      "@id" : "http://schema.org/BuddhistTemple"
+    },
+    "DislikeAction" : {
+      "@id" : "http://schema.org/DislikeAction"
+    },
+    "Action" : {
+      "@id" : "http://schema.org/Action"
+    },
+    "PaintAction" : {
+      "@id" : "http://schema.org/PaintAction"
+    },
+    "DrawAction" : {
+      "@id" : "http://schema.org/DrawAction"
+    },
+    "RadioStation" : {
+      "@id" : "http://schema.org/RadioStation"
+    },
+    "FollowAction" : {
+      "@id" : "http://schema.org/FollowAction"
+    },
+    "Vehicle" : {
+      "@id" : "http://schema.org/Vehicle"
+    },
+    "serialNumber" : {
+      "@id" : "http://schema.org/serialNumber"
+    },
+    "DigitalDocumentPermissionType" : {
+      "@id" : "http://schema.org/DigitalDocumentPermissionType"
+    },
+    "Float" : {
+      "@id" : "http://schema.org/Float"
+    },
+    "borrower" : {
+      "@id" : "http://schema.org/borrower"
+    },
+    "Attorney" : {
+      "@id" : "http://schema.org/Attorney"
+    },
+    "MonetaryAmount" : {
+      "@id" : "http://schema.org/MonetaryAmount"
+    },
+    "AdministrativeArea" : {
+      "@id" : "http://schema.org/AdministrativeArea"
+    },
+    "Park" : {
+      "@id" : "http://schema.org/Park"
+    },
+    "UserCheckins" : {
+      "@id" : "http://schema.org/UserCheckins"
+    },
+    "ReadAction" : {
+      "@id" : "http://schema.org/ReadAction"
+    },
+    "ListItem" : {
+      "@id" : "http://schema.org/ListItem"
+    },
+    "Intangible" : {
+      "@id" : "http://schema.org/Intangible"
+    },
+    "candidate" : {
+      "@id" : "http://schema.org/candidate"
+    },
+    "CommunicateAction" : {
+      "@id" : "http://schema.org/CommunicateAction"
+    },
+    "loser" : {
+      "@id" : "http://schema.org/loser"
+    },
+    "InsertAction" : {
+      "@id" : "http://schema.org/InsertAction"
+    },
+    "episodeNumber" : {
+      "@id" : "http://schema.org/episodeNumber"
+    },
+    "gtin8" : {
+      "@id" : "http://schema.org/gtin8"
+    },
+    "LiteraryEvent" : {
+      "@id" : "http://schema.org/LiteraryEvent"
+    },
+    "Season" : {
+      "@id" : "http://schema.org/Season"
+    },
+    "SteeringPositionValue" : {
+      "@id" : "http://schema.org/SteeringPositionValue"
+    },
+    "RoofingContractor" : {
+      "@id" : "http://schema.org/RoofingContractor"
+    },
+    "isbn" : {
+      "@id" : "http://schema.org/isbn"
+    },
+    "WarrantyScope" : {
+      "@id" : "http://schema.org/WarrantyScope"
+    },
+    "description" : {
+      "@id" : "http://schema.org/description"
+    },
+    "ReserveAction" : {
+      "@id" : "http://schema.org/ReserveAction"
+    },
+    "VideoGameClip" : {
+      "@id" : "http://schema.org/VideoGameClip"
+    },
+    "BefriendAction" : {
+      "@id" : "http://schema.org/BefriendAction"
+    },
+    "Accommodation" : {
+      "@id" : "http://schema.org/Accommodation"
+    },
+    "awayTeam" : {
+      "@id" : "http://schema.org/awayTeam"
+    },
+    "ArtGallery" : {
+      "@id" : "http://schema.org/ArtGallery"
+    },
+    "Time" : {
+      "@id" : "http://schema.org/Time"
+    },
+    "NGO" : {
+      "@id" : "http://schema.org/NGO"
+    },
+    "foodEvent" : {
+      "@id" : "http://schema.org/foodEvent"
+    },
+    "OrderItem" : {
+      "@id" : "http://schema.org/OrderItem"
+    },
+    "EmailMessage" : {
+      "@id" : "http://schema.org/EmailMessage"
+    },
+    "Answer" : {
+      "@id" : "http://schema.org/Answer"
+    },
+    "issueNumber" : {
+      "@id" : "http://schema.org/issueNumber"
+    },
+    "BorrowAction" : {
+      "@id" : "http://schema.org/BorrowAction"
+    },
+    "LeaveAction" : {
+      "@id" : "http://schema.org/LeaveAction"
+    },
+    "LikeAction" : {
+      "@id" : "http://schema.org/LikeAction"
+    },
+    "DepartmentStore" : {
+      "@id" : "http://schema.org/DepartmentStore"
+    },
+    "Aquarium" : {
+      "@id" : "http://schema.org/Aquarium"
+    },
+    "HairSalon" : {
+      "@id" : "http://schema.org/HairSalon"
+    },
+    "DonateAction" : {
+      "@id" : "http://schema.org/DonateAction"
+    },
+    "Residence" : {
+      "@id" : "http://schema.org/Residence"
+    },
+    "DriveWheelConfigurationValue" : {
+      "@id" : "http://schema.org/DriveWheelConfigurationValue"
+    },
+    "result" : {
+      "@id" : "http://schema.org/result"
+    },
+    "Reservoir" : {
+      "@id" : "http://schema.org/Reservoir"
+    },
+    "MusicComposition" : {
+      "@id" : "http://schema.org/MusicComposition"
+    },
+    "ConfirmAction" : {
+      "@id" : "http://schema.org/ConfirmAction"
+    },
+    "WPSideBar" : {
+      "@id" : "http://schema.org/WPSideBar"
+    },
+    "MobilePhoneStore" : {
+      "@id" : "http://schema.org/MobilePhoneStore"
+    },
+    "RadioClip" : {
+      "@id" : "http://schema.org/RadioClip"
+    },
+    "CityHall" : {
+      "@id" : "http://schema.org/CityHall"
+    },
+    "DateTime" : {
+      "@id" : "http://schema.org/DateTime"
+    },
+    "volumeNumber" : {
+      "@id" : "http://schema.org/volumeNumber"
+    },
+    "eligibleRegion" : {
+      "@id" : "http://schema.org/eligibleRegion"
+    },
+    "OwnershipInfo" : {
+      "@id" : "http://schema.org/OwnershipInfo"
+    },
+    "GatedResidenceCommunity" : {
+      "@id" : "http://schema.org/GatedResidenceCommunity"
+    },
+    "GasStation" : {
+      "@id" : "http://schema.org/GasStation"
+    },
+    "Volcano" : {
+      "@id" : "http://schema.org/Volcano"
+    },
+    "UserLikes" : {
+      "@id" : "http://schema.org/UserLikes"
+    },
+    "GroceryStore" : {
+      "@id" : "http://schema.org/GroceryStore"
+    },
+    "Boolean" : {
+      "@id" : "http://schema.org/Boolean"
+    },
+    "MotorcycleRepair" : {
+      "@id" : "http://schema.org/MotorcycleRepair"
+    },
+    "material" : {
+      "@id" : "http://schema.org/material"
+    },
+    "MeetingRoom" : {
+      "@id" : "http://schema.org/MeetingRoom"
+    }
+  }
+}
