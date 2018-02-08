@@ -1,0 +1,18 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+	"schema:ChildrensEvent" -> "schema:Event" [ label = "rdfs:subClassOf" ];
+	"schema:CourseInstance" -> "schema:Event" [ label = "rdfs:subClassOf" ];
+	"schema:ComedyEvent" -> "schema:Event" [ label = "rdfs:subClassOf" ];
+	"schema:Festival" -> "schema:Event" [ label = "rdfs:subClassOf" ];
+	"schema:ExhibitionEvent" -> "schema:Event" [ label = "rdfs:subClassOf" ];
+	"schema:DanceEvent" -> "schema:Event" [ label = "rdfs:subClassOf" ];
+	"schema:EventReservation" -> "schema:Reservation" [ label = "rdfs:subClassOf" ];
+	"schema:Event" -> "schema:Thing" [ label = "rdfs:subClassOf" ];
+	"schema:EventStatusType" -> "schema:Enumeration" [ label = "rdfs:subClassOf" ];
+	"schema:EducationEvent" -> "schema:Event" [ label = "rdfs:subClassOf" ];
+	"schema:DeliveryEvent" -> "schema:Event" [ label = "rdfs:subClassOf" ];
+	"schema:BusinessEvent" -> "schema:Event" [ label = "rdfs:subClassOf" ];
+	"schema:BroadcastEvent" -> "schema:PublicationEvent" [ label = "rdfs:subClassOf" ];
+
+}

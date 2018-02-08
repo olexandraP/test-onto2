@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/dcmitype/Event -->
+
+
+    <Class rdf:about="http://purl.org/dc/dcmitype/Event">
+        <equivalentClass rdf:resource="http://schema.org/Event"/>
+    </Class>
+    
+
+
+    <!-- http://schema.org/BroadcastEvent -->
+
+
+    <Class rdf:about="http://schema.org/BroadcastEvent">
+        <rdfs:subClassOf rdf:resource="http://schema.org/PublicationEvent"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An over the air or online broadcast event.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BroadcastEvent</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://schema.org/BusinessEvent -->
+
+
+    <Class rdf:about="http://schema.org/BusinessEvent">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Event"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Event type: Business event.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BusinessEvent</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://schema.org/ChildrensEvent -->
+
+
+    <Class rdf:about="http://schema.org/ChildrensEvent">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Event"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Event type: Children&apos;s event.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChildrensEvent</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://schema.org/ComedyEvent -->
+
+
+    <Class rdf:about="http://schema.org/ComedyEvent">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Event"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Event type: Comedy event.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ComedyEvent</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://schema.org/CourseInstance -->
+
+
+    <Class rdf:about="http://schema.org/CourseInstance">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Event"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An instance of a &lt;a class=&quot;localLink&quot; href=&quot;http://schema.org/Course&quot;&gt;Course&lt;/a&gt; which is distinct from other instances because it is offered at a different time or location or through different media or modes of study or to a specific section of students.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CourseInstance</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://schema.org/DanceEvent -->
+
+
+    <Class rdf:about="http://schema.org/DanceEvent">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Event"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Event type: A social dance.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DanceEvent</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://schema.org/DeliveryEvent -->
+
+
+    <Class rdf:about="http://schema.org/DeliveryEvent">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Event"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An event involving the delivery of an item.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DeliveryEvent</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://schema.org/EducationEvent -->
+
+
+    <Class rdf:about="http://schema.org/EducationEvent">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Event"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Event type: Education event.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EducationEvent</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://schema.org/Enumeration -->
+
+
+    <Class rdf:about="http://schema.org/Enumeration"/>
+    
+
+
+    <!-- http://schema.org/Event -->
+
+
+    <Class rdf:about="http://schema.org/Event">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Thing"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An event happening at a certain time and location, such as a concert, lecture, or festival. Ticketing information may be added via the &lt;a class=&quot;localLink&quot; href=&quot;http://schema.org/offers&quot;&gt;offers&lt;/a&gt; property. Repeated events may be structured as separate Event objects.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Event</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://schema.org/EventReservation -->
+
+
+    <Class rdf:about="http://schema.org/EventReservation">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Reservation"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A reservation for an event like a concert, sporting event, or lecture.&lt;/p&gt;
+
+&lt;p&gt;Note: This type is for information about actual reservations, e.g. in confirmation emails or HTML pages with individual confirmations of reservations. For offers of tickets, use &lt;a class=&quot;localLink&quot; href=&quot;http://schema.org/Offer&quot;&gt;Offer&lt;/a&gt;.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EventReservation</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://schema.org/EventStatusType -->
+
+
+    <Class rdf:about="http://schema.org/EventStatusType">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Enumeration"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EventStatusType is an enumeration type whose instances represent several states that an Event may be in.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EventStatusType</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://schema.org/ExhibitionEvent -->
+
+
+    <Class rdf:about="http://schema.org/ExhibitionEvent">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Event"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Event type: Exhibition event, e.g. at a museum, library, archive, tradeshow, ...</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ExhibitionEvent</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://schema.org/Festival -->
+
+
+    <Class rdf:about="http://schema.org/Festival">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Event"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Event type: Festival.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Festival</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://schema.org/PublicationEvent -->
+
+
+    <Class rdf:about="http://schema.org/PublicationEvent"/>
+    
+
+
+    <!-- http://schema.org/Reservation -->
+
+
+    <Class rdf:about="http://schema.org/Reservation"/>
+    
+
+
+    <!-- http://schema.org/Thing -->
+
+
+    <Class rdf:about="http://schema.org/Thing"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/ -->
+
+
