@@ -1,0 +1,80 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfa: <http://www.w3.org/ns/rdfa#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+schema:BroadcastEvent a rdfs:Class ;
+    rdfs:label "BroadcastEvent" ;
+    rdfs:comment "An over the air or online broadcast event." ;
+    rdfs:subClassOf schema:PublicationEvent .
+    
+schema:BusinessEvent a rdfs:Class ;
+    rdfs:label "BusinessEvent" ;
+    rdfs:comment "Event type: Business event." ;
+    rdfs:subClassOf schema:Event .
+    
+schema:ChildrensEvent a rdfs:Class ;
+    rdfs:label "ChildrensEvent" ;
+    rdfs:comment "Event type: Children's event." ;
+    rdfs:subClassOf schema:Event .
+    
+
+schema:ComedyEvent a rdfs:Class ;
+    rdfs:label "ComedyEvent" ;
+    rdfs:comment "Event type: Comedy event." ;
+    rdfs:subClassOf schema:Event .
+    
+schema:CourseInstance a rdfs:Class ;
+    rdfs:label "CourseInstance" ;
+    rdfs:comment "An instance of a <a class=\"localLink\" href=\"http://schema.org/Course\">Course</a> which is distinct from other instances because it is offered at a different time or location or through different media or modes of study or to a specific section of students." ;
+    rdfs:subClassOf schema:Event .
+    
+schema:DanceEvent a rdfs:Class ;
+    rdfs:label "DanceEvent" ;
+    rdfs:comment "Event type: A social dance." ;
+    rdfs:subClassOf schema:Event .
+    
+schema:DeliveryEvent a rdfs:Class ;
+    rdfs:label "DeliveryEvent" ;
+    rdfs:comment "An event involving the delivery of an item." ;
+    rdfs:subClassOf schema:Event .
+
+schema:EducationEvent a rdfs:Class ;
+    rdfs:label "EducationEvent" ;
+    rdfs:comment "Event type: Education event." ;
+    rdfs:subClassOf schema:Event .
+    
+    schema:Event a rdfs:Class ;
+    rdfs:label "Event" ;
+    rdfs:comment "An event happening at a certain time and location, such as a concert, lecture, or festival. Ticketing information may be added via the <a class=\"localLink\" href=\"http://schema.org/offers\">offers</a> property. Repeated events may be structured as separate Event objects." ;
+    rdfs:subClassOf schema:Thing ;
+    owl:equivalentClass <http://purl.org/dc/dcmitype/Event> .
+    
+    schema:EventReservation a rdfs:Class ;
+    rdfs:label "EventReservation" ;
+    rdfs:comment """A reservation for an event like a concert, sporting event, or lecture.</p>
+
+<p>Note: This type is for information about actual reservations, e.g. in confirmation emails or HTML pages with individual confirmations of reservations. For offers of tickets, use <a class="localLink" href="http://schema.org/Offer">Offer</a>.""" ;
+    rdfs:subClassOf schema:Reservation .
+
+schema:EventStatusType a rdfs:Class ;
+    rdfs:label "EventStatusType" ;
+    rdfs:comment "EventStatusType is an enumeration type whose instances represent several states that an Event may be in." ;
+    rdfs:subClassOf schema:Enumeration .
+    
+    schema:ExhibitionEvent a rdfs:Class ;
+    rdfs:label "ExhibitionEvent" ;
+    rdfs:comment "Event type: Exhibition event, e.g. at a museum, library, archive, tradeshow, ..." ;
+    rdfs:subClassOf schema:Event .
+    
+    schema:Festival a rdfs:Class ;
+    rdfs:label "Festival" ;
+    rdfs:comment "Event type: Festival." ;
+    rdfs:subClassOf schema:Event .
+    
